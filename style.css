@@ -1,0 +1,281 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: hsl(236, 92%, 24%);
+    color: rgb(230, 231, 235);
+    .poppins-thin {
+font-family: "Poppins", sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+
+}
+
+.poppins-extralight {
+font-family: "Poppins", sans-serif;
+font-weight: 200;
+font-style: normal;
+}
+
+.poppins-light {
+font-family: "Poppins", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+.poppins-regular {
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.poppins-medium {
+font-family: "Poppins", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.poppins-semibold {
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+.poppins-bold {
+font-family: "Poppins", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.poppins-extrabold {
+font-family: "Poppins", sans-serif;
+font-weight: 800;
+font-style: normal;
+}
+
+.poppins-black {
+font-family: "Poppins", sans-serif;
+font-weight: 900;
+font-style: normal;
+}
+
+.poppins-thin-italic {
+font-family: "Poppins", sans-serif;
+font-weight: 100;
+font-style: italic;
+}
+
+.poppins-extralight-italic {
+font-family: "Poppins", sans-serif;
+font-weight: 200;
+font-style: italic;
+}
+
+.poppins-light-italic {
+font-family: "Poppins", sans-serif;
+font-weight: 300;
+font-style: italic;
+}
+
+.poppins-regular-italic {
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.poppins-medium-italic {
+font-family: "Poppins", sans-serif;
+font-weight: 500;
+font-style: italic;
+}
+
+.poppins-semibold-italic {
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+font-style: italic;
+}
+
+.poppins-bold-italic {
+font-family: "Poppins", sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+
+.poppins-extrabold-italic {
+font-family: "Poppins", sans-serif;
+font-weight: 800;
+font-style: italic;
+}
+
+.poppins-black-italic {
+font-family: "Poppins", sans-serif;
+font-weight: 900;
+font-style: italic;
+}
+
+nav{
+display:flex;
+justify-content:space-around;
+align-items: center;
+height:80px;
+background-color: rgb(10, 11, 11);} 
+nav ul{
+display: flex;
+justify-content: center;
+}
+nav ul li {
+list-style: none;
+margin: 0 23px;
+}
+nav ul li a{
+text-decoration: none;
+color: whitesmoke;
+}
+nav ul li :hover{
+text-decoration: none;
+color:rgb(120, 69, 120);
+font-size: 1.2rem;
+}
+main hr{
+border: 0;
+background: #9690fe;
+height: 1.2px;
+margin: 50px 45px;
+}
+.left{ font-size: 2.5rem;
+color: whitesmoke;
+font-family: "Lobster", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.fristsection{
+display: flex;
+justify-content:space-around;
+margin: 80px 0;
+}
+.fristsection>div{
+width: 30%;}
+
+.leftsection{
+font-size: 3rem;
+margin: 30px 0;
+}
+
+.leftsection .btn{
+    padding:12px;
+    background-color: #1e2167;
+    color: rgb(233, 233, 241);
+    border:2px solid rgb(181, 181, 193);
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    }
+
+.rightsection img{
+margin: 250px 0;
+width: 133%;
+}
+.purple{
+color: rgb(152, 165, 249);
+}
+.text-gray{
+color: gray;
+}
+#element{
+color:  rgb(152, 165, 249);
+}
+.secondsection{
+max-width: 88vw;
+margin: auto;
+height:80vh ;
+}
+.secondsection h1{
+font: size 1.9rem; 
+
+}
+.secondsection .box {
+background: white;
+width: 87vw;
+height: 1px;
+margin: 56px ; 
+display: flex;}
+
+.secondsection .vertical{
+height: 63px;
+width: 2px ;
+background-color:white;
+margin: 0 100px;
+}
+.img-1{
+    width: 55px;
+    position: relative;
+    top: -57px;
+    left: -30px;}
+
+    .img-2{
+        width: 50px;
+        position: relative;
+        top: -57px;
+        left: -30px;
+
+
+}
+.secondsection .text-gray {
+}
+
+
+.img-3{
+    width: 55px;
+    position: relative;
+    top: -55px;
+    left: -30px;}
+
+    .img-4{
+        width: 60px;
+        position: relative;
+        top: -57px;
+        left: -30px;}
+
+
+
+.vertical-titel{
+    position: relative;
+    top: 8px;
+    width: 100px;
+
+}
+
+.vertical-desc{
+    position: relative;
+    top: 130px;
+    left: -100px;
+    color: #8d87f9;
+    font-size: 10px;
+    width: 150px;
+
+}
+footer{
+    background-color:rgb(68, 86, 203);
+   
+
+}
+.footer{
+    display: flex;
+    margin: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul{
+    list-style:none;
+}
+.footer div{
+    width: 223px;
+}
+
+footer .footer-rights{
+    text-align: center;
+    color: rgb(107, 104, 104);
+    padding: 12px 0;
+}
